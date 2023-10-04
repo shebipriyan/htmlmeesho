@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+header{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index:1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.logo img{
+    max-width:1000px;
+    height: auto;
+}
+.navmenu{
+    display: flex;
+}
+.navmenu a{
+    color: #000;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight:100;
+    transition: all.42s ease;
+    background-color: rgb(238, 187, 219);
+}
+.navmenu a:hover{
+    color:rgb(211, 183, 197);
+
+}
+.nav-icon{
+display: flex;
+align-items: center;
+}
+.nav-icon{
+margin-right: 10px;
+color: #000;
+font-size: 20px;
+text-transform: capitalize;
+padding: 10px 20px;
+font-weight:100;
+transition: all.42s ease;
+background-color: rgb(221, 187, 207);
+}
+.nav-icon i:hover{
+    transform: scale(1,1);
+    color: maroon;
+
+}
+
+section{
+    padding: 10%;
+}
+.main-home{
+    width: 100%;
+    height:100vh;
+    background-color: #f772a9;
+    background-image: url(images/back1.png);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    font-style:italic;
+
+}
+.main-text h1{
+    color:firebrick;
+    font-size: large;
+
+
+
+}
+
+.down-arrow
+{
+    position:absolute;
+    top:85%;
+    right:10%;
+}
+.down{
+    font-size: 30px;
+    color: rgb(241, 145, 193);
+    border: 2px  solid rgb(165, 13, 82);
+    border-radius: 50px;
+    padding: 12px 12px;
+}
+.down i:hover{
+    background-color: #f772a9;
+    color:rgb(105, 4, 55);
+    transition: all;
+
+
+}
+.center-text h2{
+    color: #000;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+    
+
+}
+.center-text span{
+    color: rgb(66, 3, 35);
+}
+
+.Products{
+    display:gird;
+    grid-template-columns:repeat(auto-fit,minmaX(260px,auto));
+    gap:3rem;
+    
+}
+.row{
+    position: relative;
+    transition: all.40s;
+}
+.row img{
+    width:100%;
+    height:auto;
+    transition: all.40s;
+}
+.row image:hover{
+    transform: scale(0.9);
+}
+
+
+
+

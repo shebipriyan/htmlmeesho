@@ -1,0 +1,26 @@
+body{
+    margin:0;
+}
+
+.menubar{
+    width: 100%;
+    background-color: cadetblue;
+    overflow: auto;
+}
+.menubar a{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+    color: wheat;
+    font-size: 36px;
+}
+
+.menubar a:hover{
+    background-color: chartreuse;
+}
+
+.active{
+    background-color: rgb(205,220,220);
+}
